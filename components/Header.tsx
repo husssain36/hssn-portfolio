@@ -60,6 +60,7 @@ function Header({}: Props) {
 
         <div className='flex flex-row space-x-5 '>
         {/* <Link href="blog">
+        
             <motion.div 
             initial={{
                 x: 500,
