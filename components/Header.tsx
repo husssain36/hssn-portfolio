@@ -59,7 +59,7 @@ function Header({}: Props) {
         </motion.div>
 
         <div className='flex flex-row space-x-5 '>
-        <Link href="blog">
+        {/* <Link href="blog">
             <motion.div 
             initial={{
                 x: 500,
@@ -77,7 +77,7 @@ function Header({}: Props) {
             className='flex flex-row items-center text-gray-300 cursor-pointer mt-3'>
                 <p className='uppercase md:inline-flex text-lg text-gray-400 hover:text-underline'> Blogs</p>
             </motion.div>
-        </Link>
+        </Link> */}
 
 
         <Link href="#contact-section">
